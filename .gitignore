@@ -1,0 +1,58 @@
+# virtual environment
+.coins_env/
+
+# terraform
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/.keys
+terraform/terraform*
+
+# airflow
+airflow/logs/
+airflow/plugins/
+airflow/dags/__pycache__/
+airflow/.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+.venv*/
+python_env*/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Local config
+.env
+
+# Local data files
+data/*.duckdb
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Logs
+*.log
+*.json
+
+.git
+xtest-files/
+xtest-files/*
